@@ -45,7 +45,7 @@
 ## 📦 Структура проекта
 
 ```
-drone-detection/
+Drone-detection/
 ├── training/        # Скрипты обучения и экспорта модели
 ├── android/         # Исходники Android-приложения (Kotlin)
 ├── models/          # Финальные .tflite-модели
@@ -64,7 +64,7 @@ drone-detection/
 ### Установка
 
 ```bash
-git clone https://github.com/M0nerst/drone-detection.git
+git clone https://github.com/M0nerst/Drone-detection.git
 cd drone-detection
 pip install -r requirements.txt
 ```
