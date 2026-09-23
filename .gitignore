@@ -1,0 +1,84 @@
+# ========================
+# Python
+# ========================
+__pycache__/
+*.py[cod]
+venv/
+venv_export/
+.venv/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# ========================
+# Данные и датасеты
+# ========================
+datasets/
+yolo_dataset/
+combined_dataset*/
+roboflow_datasets/
+anti_uav_raw/
+*.tar
+*.tar.gz
+*.zip
+/*.pt
+/weights/
+/exports/
+*.onnx
+
+# ========================
+# Модели и чекпоинты
+# ========================
+# Все .tflite / .onnx / .pt / .mlpackage в корне — игнор
+/*.tflite
+/*.onnx
+/*.pt
+/*.mlpackage
+
+# Все runs/чекпоинты — игнор
+runs/
+checkpoints*/
+checkpoints_v*/
+
+# НО: финальная модель в models/ — оставляем
+!models/*.tflite
+!models/README.md
+
+# ========================
+# Изображения (кроме docs)
+# ========================
+*.jpg
+*.jpeg
+*.png
+!docs/**/*.png
+
+# ========================
+# Android
+# ========================
+android/.gradle/
+android/build/
+android/app/build/
+android/local.properties
+android/.idea/
+android/captures/
+*.apk
+*.aab
+*.ap_
+*.dex
+*.class
+
+# НО: gradle-wrapper.jar — нужен в git
+!android/gradle/wrapper/gradle-wrapper.jar
+
+# ========================
+# IDE
+# ========================
+.idea/
+.vscode/
+*.swp
+*~
+
+# ========================
+# OS
+# ========================
+.DS_Store
+Thumbs.db

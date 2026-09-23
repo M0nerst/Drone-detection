@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Тамбовский госуниверситет им. Г.Р. Державина</string>
+    <string name="close">Закрыть</string>
+    <string name="grant_camera">Разрешить камеру</string>
+    <string name="camera_rationale">Приложению нужна камера, чтобы искать дроны в реальном времени.</string>
+    <string name="camera_denied">Камера запрещена. Разрешите доступ в настройках, иначе детекция не запустится.</string>
+    <string name="loading_model">Загрузка модели…</string>
+    <string name="model_ready">Модель готова</string>
+    <string name="model_error">Не удалось загрузить модель</string>
+    <string name="open_settings">Открыть настройки</string>
+    <string name="zoom_label">Зум</string>
+</resources>
