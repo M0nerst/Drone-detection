@@ -49,7 +49,6 @@ Drone-detection/
 ├── training/        # Скрипты обучения и экспорта модели
 ├── android/         # Исходники Android-приложения (Kotlin)
 ├── models/          # Финальные .tflite-модели
-├── docs/            # Документация
 └── README.md
 ```
 
@@ -117,12 +116,6 @@ cd android
 ```
 
 APK появится в `android/app/build/outputs/apk/release/`.
-
-## 📚 Документация
-
-- [`docs/dataset.md`](docs/dataset.md) — описание датасетов и подготовка
-- [`docs/training.md`](docs/training.md) — детали обучения и гиперпараметры
-- [`docs/android_notes.md`](docs/android_notes.md) — заметки по интеграции модели
 
 ## 📊 Датасет
 
